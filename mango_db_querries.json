@@ -1,0 +1,44 @@
+use database
+
+show dbs
+
+db.creteCollection('mycollection')
+
+
+db.dropDatabase()
+
+
+db.myCollection.drop()
+
+// file adding command
+
+db.customer.insertOne({
+Name :'sita',
+Age: 20,
+Gender:'female',
+},
+db.collectionName.insertOne({
+Name :'rita',
+Age: 20,
+Gender:'female',
+},
+db.collectionName.insertOne({
+Name :'lita',
+Age: 20,
+Gender:'female',
+})
+db.customer.insertMany([{
+Name :'sita',
+Age: 20,
+Gender:'female',
+},
+{
+Name :'rita',
+Age: 20,
+Gender:'female',
+},
+{
+Name :'lita',
+Age: 20,
+Gender:'female',
+}])
