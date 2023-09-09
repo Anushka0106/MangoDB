@@ -1101,3 +1101,4 @@ Atlas atlas-2zz3mw-shard-0 [primary] regex()> db.Electronic.find({userId:1})
 Atlas atlas-2zz3mw-shard-0 [primary] regex()> 
 (To exit, press Ctrl+C again or Ctrl+D or type .exit)
 Atlas atlas-2zz3mw-shard-0 [primary] regex()> 
+db.electtronics.find({user:1},{id:1})

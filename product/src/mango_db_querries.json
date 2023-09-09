@@ -42,3 +42,15 @@ Name :'lita',
 Age: 20,
 Gender:'female',
 }])
+
+
+// comparision commands
+$eq
+$ne
+$gt
+$gte
+$lt
+$lte
+$in
+$nin
+$
